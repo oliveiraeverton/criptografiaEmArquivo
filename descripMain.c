@@ -29,8 +29,8 @@ void enfileirar(char c, struct filaEncadeada **estruturaI, struct filaEncadeada 
         (**estruturaF).prox = nova;
         *estruturaF = nova;
     }
-     (*totalCaracter)++;
-    printf("%d %c\n", *totalCaracter, c);
+    (*totalCaracter)++;
+    //printf("%d %c\n", *totalCaracter, c);
     //free(nova);
 }
 char desenfileirar(struct filaEncadeada **estruturaI, struct filaEncadeada **estruturaF){
@@ -122,8 +122,8 @@ int main(){
         return 1; 
     }
     	while((k = fscanf(vetor[i].file, "%c", &c)) != EOF){
-			printf("%c", c);
-			printf("AQUI!!\n");
+			//printf("%c", c);
+			//printf("AQUI!!\n");
 			//enfileirar
 			enfileirar(c, &filaI[i], &filaF[i], &totalCaracter);
 		}
