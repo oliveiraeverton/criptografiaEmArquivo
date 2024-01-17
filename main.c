@@ -32,7 +32,7 @@ int main(){
 
     printf("\n%s\n", vetor);
 
-    printf("Em quantos arquivos você quer fragmentar o arquivo %s?\n", nomeArquivoEntrada);
+    printf("Em quantos arquivos você quer fragmentar o arquivo %s:\n", nomeArquivoEntrada);
     scanf("%d", &qtdArq);
 
     struct vetorArquivo vetorCriptografia[qtdArq];

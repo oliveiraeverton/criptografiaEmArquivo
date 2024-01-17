@@ -62,15 +62,15 @@ int main(){
 	int  totalCaracter = 0;
 	char arquivoInicial[20];
 	int qtdArquivo;
-	printf("Digite o nome do arquivo inicial:\n");
+	printf("Digite o nome do arquivo inicial:");
 	scanf(" %s", arquivoInicial);
+    printf("\n");
 
-	printf("Digite a quantidade de arquivos existentes:\n");
+	printf("Digite a quantidade de arquivos existentes:");
 	scanf("%d", &qtdArquivo);
+    printf("\n");
 
 	struct vetorArquivo vetor[qtdArquivo];
-    
-
 
     char original[20];
     strcpy(original, arquivoInicial);
